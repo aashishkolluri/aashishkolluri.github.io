@@ -19,9 +19,9 @@ social: true  # includes social icons at the bottom of the page
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
 
 ##### **Bio**
-Hi! I am a third-year PhD student at [National University Of Singapore](http://nus.edu.sg/){:target="\_blank"}. I am doing my thesis with [Prateek Saxena](https://www.comp.nus.edu.sg/~prateeks/){:target="\_blank"}. My current focus is private computations on graphs, I am also interested in building usable systems for privacy. I opine that rigourous user privacy and monetizing users’ data can and should co-exist.
+Hi! I am a PhD student at [National University Of Singapore](http://nus.edu.sg/){:target="\_blank"}. I am doing my thesis with [Prateek Saxena](https://www.comp.nus.edu.sg/~prateeks/){:target="\_blank"}. My current focus is to design differentially private machine learning algorithms, especially on graphs, that enable end applications such as node classification and recommendations. I like building usable private technologies in general. I opine that rigourous user privacy and monetizing users’ data can and should co-exist.
 
-I have experience in program analysis and security of blockchains also, as indicated by most of my existing publications. However, I have parted ways with them for a while now :)
+I have experience in program analysis, synthesis, debugging and security of blockchains.
 
 ##### **History**
 In 2017, I graduated from [IIT Kanpur](https://www.iitk.ac.in/){:target="\_blank"} where I was fortunate to work with [Indranil Saha](https://cse.iitk.ac.in/users/isaha/){:target="\_blank"}. I visited Prateek in 2017 for an internship before joining him as an advisee.
