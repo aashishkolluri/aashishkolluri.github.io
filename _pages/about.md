@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
 
 ##### **Bio**
-Hi! I am a PhD student at [National University Of Singapore](http://nus.edu.sg/){:target="\_blank"}. I am doing my thesis with [Prateek Saxena](https://www.comp.nus.edu.sg/~prateeks/){:target="\_blank"}. My current focus is to design differentially private machine learning algorithms, especially on graphs, that enable end applications such as node classification and recommendations. I like building usable private technologies in general. I opine that rigourous user privacy and monetizing users’ data can and should co-exist.
+Hi! I am a PhD student at [National University Of Singapore](http://nus.edu.sg/){:target="\_blank"}. I am doing my thesis with [Prateek Saxena](https://www.comp.nus.edu.sg/~prateeks/){:target="\_blank"}. I design scalable and trustworthy machine learning algorithms for learning on structured data such as graphs. I work on research problems that are motivated by practical relevance and at the same time have theoretical guarantees. In general, I am a systems security person and I am inclined to analyze the security of any newly introduced frameworks/ideas across all subfields of computer science. Attacks are interesting but defenses with guarantees are beautiful to me.
 
 I have experience in program analysis, synthesis, debugging and security of blockchains.
 
