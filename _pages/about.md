@@ -34,27 +34,27 @@ social: true  # includes social icons at the bottom of the page
 ##### **Academic History & Internships**
 <!-- ![](/assets/img/iitk.png)
 *B.Tech (2013-17)* -->
-<figurec>
+<figure style="display:inline-block;">
 <img src="/assets/img/iitk.png" alt="drawing" width="125" />
-<figcaption>B.Tech (2013-17)</figcaption>
-</figurec>
-<figurec>
+<figcaption style="text-align:center;">B.Tech (2013-17)</figcaption>
+</figure>
+<figure style="display:inline-block;">
 <img src="/assets/img/flipkart.png" alt="drawing" width="200" />
-<figcaption>Internship (May-Jul'16)</figcaption>
-</figurec>
-<figurec>
+<figcaption style="text-align:center;">Internship (May-Jul'16)</figcaption>
+</figure>
+<figure style="display:inline-block;">
 <img src="/assets/img/nus_logo.jpeg" alt="drawing" width="200" />
-<figcaption>Internship (Aug'17-May'18)</figcaption>
-</figurec>
-<figurec>
+<figcaption style="text-align:center;">Internship (Aug'17-May'18)</figcaption>
+</figure>
+<figure style="display:inline-block;">
 <img src="/assets/img/nus_logo.jpeg" alt="drawing" width="200" />
-<figcaption>PhD (Since 2018)</figcaption>
-</figurec>
-<figurec>
+<figcaption style="text-align:center;">PhD (Since 2018)</figcaption>
+</figure>
+<figure style="display:inline-block;">
 <img src="/assets/img/aqilliz.png" alt="drawing" width="200" />
-<figcaption>Internship (Jun-Jul'20)</figcaption>
-</figurec>
-<figurec>
+<figcaption style="text-align:center;">Internship (Jun-Jul'20)</figcaption>
+</figure>
+<figure style="display:inline-block;">
 <img src="/assets/img/bell_labs.png" alt="drawing" width="200" />
-<figcaption>Internship (Jun-Aug'23)</figcaption>
-</figurec>
+<figcaption style="text-align:center;">Internship (Jun-Aug'23)</figcaption>
+</figure>
