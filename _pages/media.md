@@ -1,8 +1,8 @@
 ---
 layout: page
-title: media
+title: Media
 permalink: /media/
-description: Blockchain times were good.
+description:
 nav: true
 ---
 

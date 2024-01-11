@@ -1,15 +1,15 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-description: <a href="https://www.crystal.comp.nus.edu.sg/">Crystal Center</a>. KiSP Lab. School Of Computing. National University Of Singapore.
+description: Distributed Machine Learning | Graph Learning | Security & Privacy
 
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
-    <p>AS06-04-25</p>
-    <p>Singapore, 117416</p>
+  # address: >
+  #   # <p>AS06-04-25</p>
+  #   # <p>Singapore, 117416</p>
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -19,19 +19,42 @@ social: true  # includes social icons at the bottom of the page
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
 
 ##### **Bio**
-Hi! I am a PhD student at [National University Of Singapore](http://nus.edu.sg/){:target="\_blank"}. I am doing my thesis with [Prateek Saxena](https://www.comp.nus.edu.sg/~prateeks/){:target="\_blank"}. I design scalable and trustworthy machine learning algorithms for learning on structured data such as graphs. I work on research problems that are motivated by practical relevance and at the same time have theoretical guarantees. In general, I am a systems security person and I am inclined to analyze the security of any newly introduced frameworks/ideas across all subfields of computer science. Attacks are interesting but defenses with guarantees are beautiful to me.
+👋 Hi! I'm a PhD student at the National University of Singapore 🦁, navigating the crossroads of Distributed Machine Learning and Computer Security under the guidance of [Prateek Saxena](https://www.comp.nus.edu.sg/~prateeks/){:target="\_blank"}. My passion lies in designing efficient distributed machine learning systems and fortifying them against security threats, focusing on distributed graph learning.
 
-I have experience in program analysis, synthesis, debugging and security of blockchains.
+🚀 **Thesis Focus:** My research focus is to build **Efficient and Trustworthy Machine Learning (ML) Systems for Distributed Graphs.** In pursuit of this, I've designed and built ML systems with both efficiency and security guarantees. Here's a glimpse of two recent projects:
 
-##### **History**
-In 2017, I graduated from [IIT Kanpur](https://www.iitk.ac.in/){:target="\_blank"} where I was fortunate to work with [Indranil Saha](https://cse.iitk.ac.in/users/isaha/){:target="\_blank"}. I visited Prateek in 2017 for an internship before joining him as an advisee.
+ - **Retexo:** A [communication-efficient system](https://github.com/aashishkolluri/retexo-distributed) for training Graph Neural Networks (GNNs) on expansive distributed graphs. This project stands out by provably enhancing the end-to-end training process efficiency over state-of-the-art systems. It can be used to train GNNs in data centers, collaborative setups, and on mobile/edge networks.
 
-##### **Work**
-I was fortunate to work with two exciting companies, [Flipkart India](https://www.flipkart.com/){:target="\_blank"} and [Aqilliz](https://aqilliz.com/){:target="\_blank"}. Flipkart India (now owned by Walmart) gave me an opportunity to work on their anomaly detection engine. Aqilliz is an exciting startup from Singapore where I had a chance to demonstrate the impact of applying Differential Privacy protection on the utility of widely-used queries like recommendations.
+ - **LPGNet:** A novel Graph Neural Network architecture with strong differential privacy guarantees for graph edges, offering state-of-the-art privacy-utility tradeoffs. Thus, they prevent all attacks that steal the training graph data from the model. The published paper can be found [here](https://dl.acm.org/doi/abs/10.1145/3548606.3560705).
 
-##### **Other interests**
-My interests range widely from Computer Science to Psychology, Astronomy, Music, Cricket and Animals. I love singing and relish performing almost anything on a stage(of course after practicing….). I will probably stay in Singapore for at least another three years, so, If you are here then feel free to drop by and say hoi.
+🔍 **Other Contributions:** My thesis also delves into crafting differentially private queries on distributed data and attacking byzantine robust federated learning, with notable publications in top-tier security conferences.
 
-<!-- Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+🌐 **Broader Interests:** Beyond my thesis pursuits, I actively engage in solving algorithmic problems and enjoy building systems. My contributions extend to diverse areas such as program synthesis, translation, debugging, and the security of decentralized applications, with publications in top-tier venues.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
+##### **Academic History & Internships**
+<!-- ![](/assets/img/iitk.png)
+*B.Tech (2013-17)* -->
+<figure>
+<img src="/assets/img/iitk.png" alt="drawing" width="125" />
+<figcaption>B.Tech (2013-17)</figcaption>
+</figure>
+<figure>
+<img src="/assets/img/flipkart.png" alt="drawing" width="200" />
+<figcaption>Internship (May-Jul'16)</figcaption>
+</figure>
+<figure>
+<img src="/assets/img/nus_logo.jpeg" alt="drawing" width="200" />
+<figcaption>Internship (Aug'17-May'18)</figcaption>
+</figure>
+<figure>
+<img src="/assets/img/nus_logo.jpeg" alt="drawing" width="200" />
+<figcaption>PhD (Since 2018)</figcaption>
+</figure>
+<figure>
+<img src="/assets/img/aqilliz.png" alt="drawing" width="200" />
+<figcaption>Internship (Jun-Jul'20)</figcaption>
+</figure>
+<figure>
+<img src="/assets/img/bell_labs.png" alt="drawing" width="200" />
+<figcaption>Internship (Jun-Aug'23)</figcaption>
+</figure>

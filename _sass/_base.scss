@@ -428,3 +428,11 @@ html.transition *:after {
   transition: all 750ms !important;
   transition-delay: 0 !important;
 }
+
+figure {
+  display: inline-block;
+}
+figure figcaption {
+  text-align: center;
+}
+

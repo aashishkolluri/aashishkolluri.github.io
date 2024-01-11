@@ -66,9 +66,9 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Chronicles  # your blog must have a name for it to show up in the nav bar
-blog_description: Writer at work
-permalink: /blog/:year/:title/
+# blog_name: Chronicles  # your blog must have a name for it to show up in the nav bar
+# blog_description: Writer at work
+# permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
