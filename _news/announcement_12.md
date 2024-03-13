@@ -4,4 +4,4 @@ date: 2023-12-01 12:00:00
 inline: true
 ---
 
-**[New]** Our paper on attacking byzantine robust aggregation protocols is on [arXiv](https://arxiv.org/abs/2312.14461).
+**[New]** Our paper on attacking byzantine robust aggregation protocols is published at IEEE S&P'24 (see [arXiv](https://arxiv.org/abs/2312.14461)).

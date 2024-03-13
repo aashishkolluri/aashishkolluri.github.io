@@ -21,13 +21,15 @@ social: true  # includes social icons at the bottom of the page
 ##### **Bio**
 👋 Hi! I'm a PhD student at the National University of Singapore 🦁, navigating the crossroads of Distributed Machine Learning and Computer Security under the guidance of [Prateek Saxena](https://www.comp.nus.edu.sg/~prateeks/){:target="\_blank"}. My passion lies in designing efficient distributed machine learning systems and fortifying them against security threats, focusing on distributed graph learning.
 
-🚀 **Thesis Focus:** My research focus is to build **Efficient and Trustworthy Machine Learning (ML) Systems for Distributed Graphs.** In pursuit of this, I've designed and built ML systems with both efficiency and security guarantees. Here's a glimpse of two recent projects:
+🚀 **Research Focus:** My research focus is to build **Efficient and Trustworthy Distributed Machine Learning (ML) Systems**. Here's a glimpse of three recent projects:
+
+ - **HiDRA:** An untargeted model poisoning attack that destroys the model performance while training with strong robust aggregators. We prove that our attack is optimal irrespective of the application, and that designing strong robust aggregators is computationally as hard as finding the largest eigenvector in high dimensions. Our paper ([arXiv](https://arxiv.org/abs/2312.14461)) is published at IEEE S&P'24.
 
  - **Retexo:** A [communication-efficient system](https://github.com/aashishkolluri/retexo-distributed) for training Graph Neural Networks (GNNs) on expansive distributed graphs. This project stands out by provably enhancing the end-to-end training process efficiency over state-of-the-art systems. It can be used to train GNNs in data centers, collaborative setups, and on mobile/edge networks.
 
- - **LPGNet:** A novel Graph Neural Network architecture with strong differential privacy guarantees for graph edges, offering state-of-the-art privacy-utility tradeoffs. Thus, they prevent all attacks that steal the training graph data from the model. The published paper can be found [here](https://dl.acm.org/doi/abs/10.1145/3548606.3560705).
+ - **LPGNet:** A novel Graph Neural Network architecture with strong differential privacy guarantees for graph edges, offering state-of-the-art privacy-utility tradeoffs. Thus, they prevent all attacks that steal the training graph data from the model. This [work](https://dl.acm.org/doi/abs/10.1145/3548606.3560705) is published at CCS'22.
 
-🔍 **Other Contributions:** My thesis also delves into crafting differentially private queries on distributed data and attacking byzantine robust federated learning, with notable publications in top-tier security conferences.
+🔍 **Other Contributions:** My thesis also delves into crafting other differentially private queries on distributed data with notable publications in top-tier security conferences.
 
 🌐 **Broader Interests:** Beyond my thesis pursuits, I actively engage in solving algorithmic problems and enjoy building systems. My contributions extend to diverse areas such as program synthesis, translation, debugging, and the security of decentralized applications, with publications in top-tier venues.
 
