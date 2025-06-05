@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-description: Distributed Machine Learning | Graph Learning | Security & Privacy
+description: AI Security | Distributed Machine Learning | Trustworthy Machine Learning
 
 profile:
   align: right
@@ -19,44 +19,53 @@ social: true  # includes social icons at the bottom of the page
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
 
 ##### **Bio**
-👋 Hi! I'm a PhD student at the National University of Singapore 🦁, navigating the crossroads of Distributed Machine Learning and Computer Security under the guidance of [Prateek Saxena](https://www.comp.nus.edu.sg/~prateeks/){:target="\_blank"}. My passion lies in designing efficient distributed machine learning systems and fortifying them against security threats, focusing on distributed graph learning.
+👋 Hi! I'm an AI security researcher at Microsoft Research, working in the Confidential Computing group in Cambridge, U.K. My current focus is on designing agents and agentic frameworks with strong, robust, and interpretable security guarantees.
 
-🚀 **Research Focus:** My research focus is to build **Efficient and Trustworthy Distributed Machine Learning (ML) Systems**. Here's a glimpse of three recent projects:
+Previously, I completed my Ph.D. under the guidance of [Prateek Saxena](https://www.comp.nus.edu.sg/~prateeks/){:target="\_blank"} at the National University of Singapore (NUS), where I built efficient and secure systems for distributed machine learning, with a particular emphasis on distributed graph learning.
 
- - **HiDRA:** An untargeted model poisoning attack that destroys the model performance while training with strong robust aggregators. We prove that our attack is optimal irrespective of the application, and that designing strong robust aggregators is computationally as hard as finding the largest eigenvector in high dimensions. Our paper ([arXiv](https://arxiv.org/abs/2312.14461)) is published at IEEE S&P'24.
+##### Research Interests
+My work spans multiple research areas with both theoretical and systems contributions. Please drop me a message if you are interested in any of them!
 
- - **Retexo:** A [communication-efficient system](https://github.com/aashishkolluri/retexo-distributed) for training Graph Neural Networks (GNNs) on expansive distributed graphs. This project stands out by provably enhancing the end-to-end training process efficiency over state-of-the-art systems. It can be used to train GNNs in data centers, collaborative setups, and on mobile/edge networks.
+🧠 **AI Agent Security**
+Most recently, I have been developing *formal* security foundations for autonomous AI agents. Our 2025 work introduces **FIDES**, a planner that tags every piece of data an agent ingests with confidentiality-and-integrity labels and then *deterministically* enforces information-flow policies before any tool call is executed. A formal model and task taxonomy show exactly which In benchmarks, FIDES blocks all prompt-injection attacks and completes up to 16% more tasks than a baseline planner when paired with OpenAI’s o-series model—offering auditable, proof-carrying security for multi-tool agent stacks. ([FIDES on arxiv](https://www.arxiv.org/pdf/2505.23643){:target="\_blank"})
 
- - **LPGNet:** A novel Graph Neural Network architecture with strong differential privacy guarantees for graph edges, offering state-of-the-art privacy-utility tradeoffs. Thus, they prevent all attacks that steal the training graph data from the model. This [work](https://dl.acm.org/doi/abs/10.1145/3548606.3560705) is published at CCS'22.
+🛡️ **Defending Poisoning Attacks**
+**HiDRA** attack ([S\&P'24](https://arxiv.org/abs/2312.14461))  and **RandEigen** defense (CCS 2025, TBA) address the fundamental compuational limitations of desigining theoretically sound defenses for poisoning and backdoor attacks. 
 
-🔍 **Other Contributions:** My thesis also delves into crafting other differentially private queries on distributed data with notable publications in top-tier security conferences.
+HiDRA revealed a computational hardness barrier for any deterministic robust aggregator, like the classical iterative filtering, with dimension-independent guarantees. The attack breaks state-of-the-art defenses against targeted poisoning and backdoor attacks. RandEigen is a randomized aggregator that overcomes the computational vulnerabitlity of deterministic aggregators while matching their theoretical guarantees. RandEigen runs up to 300× faster than state-of-the-art theoretically sound defenses while preventing all existing poisoning and backdoor attacks in both centralized and federated settings---making bias-bounded defenses finally practical.
 
-🌐 **Broader Interests:** Beyond my thesis pursuits, I actively engage in solving algorithmic problems and enjoy building systems. My contributions extend to diverse areas such as program synthesis, translation, debugging, and the security of decentralized applications, with publications in top-tier venues.
+🌐 **Distributed Machine Learning**
+My Ph.D. research laid the groundwork for designing efficient and privacy-preserving distributed graph learning. I built a system [**Retexo**](https://github.com/aashishkolluri/retexo-distributed), which optimizes GNN training efficiency across data centers and edge devices. **LPGNet** ([CCS 2022](https://arxiv.org/abs/2205.03105)) and **PrivaCT** ([CCS 2021](https://arxiv.org/abs/2105.09057)) are differentially private GNN and hierarchical clustering algorithms that protects graph data against leakage. These contributions have advanced the state of the art in scalable, privacy-aware learning over distributed graphs.
+
+🌐 **Broader Interests:** I actively engage in solving algorithmic problems and enjoy building systems. My contributions extend to diverse areas such as program synthesis, translation, debugging, and the security of decentralized applications, with publications in top-tier venues.
 
 ##### **Academic History & Internships**
 <!-- ![](/assets/img/iitk.png)
 *B.Tech (2013-17)* -->
 <figure style="display:inline-block;">
-<img src="/assets/img/iitk.png" alt="drawing" width="125" />
-<figcaption style="text-align:center;">B.Tech (2013-17)</figcaption>
+<img src="/assets/img/microsoft.png" alt="drawing" width="100" />
+<figcaption style="text-align:center;">Researcher (Since Feb'25)</figcaption>
+<figure style="display:inline-block;">
+<img src="/assets/img/bell_labs.png" alt="drawing" width="100" />
+<figcaption style="text-align:center;">Internship (Jun-Aug'23)</figcaption>
 </figure>
 <figure style="display:inline-block;">
-<img src="/assets/img/flipkart.png" alt="drawing" width="200" />
-<figcaption style="text-align:center;">Internship (May-Jul'16)</figcaption>
-</figure>
-<figure style="display:inline-block;">
-<img src="/assets/img/nus_logo.jpeg" alt="drawing" width="200" />
-<figcaption style="text-align:center;">Internship (Aug'17-May'18)</figcaption>
-</figure>
-<figure style="display:inline-block;">
-<img src="/assets/img/nus_logo.jpeg" alt="drawing" width="200" />
-<figcaption style="text-align:center;">PhD (Since 2018)</figcaption>
-</figure>
-<figure style="display:inline-block;">
-<img src="/assets/img/aqilliz.png" alt="drawing" width="200" />
+<img src="/assets/img/aqilliz.png" alt="drawing" width="100" />
 <figcaption style="text-align:center;">Internship (Jun-Jul'20)</figcaption>
 </figure>
 <figure style="display:inline-block;">
-<img src="/assets/img/bell_labs.png" alt="drawing" width="200" />
-<figcaption style="text-align:center;">Internship (Jun-Aug'23)</figcaption>
+<img src="/assets/img/nus_logo.jpeg" alt="drawing" width="100" />
+<figcaption style="text-align:center;">Ph.D. (2018-24)</figcaption>
+</figure>
+<figure style="display:inline-block;">
+<img src="/assets/img/nus_logo.jpeg" alt="drawing" width="100" />
+<figcaption style="text-align:center;">Internship (Aug'17-May'18)</figcaption>
+</figure>
+<figure style="display:inline-block;">
+<img src="/assets/img/flipkart.png" alt="drawing" width="100" />
+<figcaption style="text-align:center;">Internship (May-Jul'16)</figcaption>
+</figure>
+<figure style="display:inline-block;">
+<img src="/assets/img/iitk.png" alt="drawing" width="75" />
+<figcaption style="text-align:center;">B.Tech. (2013-17)</figcaption>
 </figure>
